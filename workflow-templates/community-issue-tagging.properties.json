@@ -1,14 +1,8 @@
 {
-    "name": "Octo Organization Workflow",
-    "description": "Octo Organization CI workflow template.",
-    "iconName": "example-icon",
-    "categories": [
-        "Go"
-    ],
-    "filePatterns": [
-        "package.json$",
-        "^Dockerfile",
-        ".*\\.md$"
-    ]
+  "name": "Tenstorrent - Community Issue / PR Labeling Workflow",
+  "description": "Tenstorrent - Community Issue / PR Labeling Workflow",
+  "iconName": "octicon-bug",
+  "categories": [
+    "Automation"
+  ]
 }
-
