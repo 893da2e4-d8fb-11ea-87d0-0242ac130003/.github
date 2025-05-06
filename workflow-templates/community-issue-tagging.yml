@@ -1,11 +1,18 @@
-name: Community Issue / PR Labeling Workflow
+name: Octo Organization CI
 
 on:
-  issues:
-    types: [opened]
+  push:
+    branches: [ $default-branch ]
   pull_request:
-    types: [opened]
+    branches: [ $default-branch ]
 
 jobs:
-  call-central-workflow:
-    uses: tenstorrent/tt-github-actions/.github/workflows/on-community-issue.yml@main
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run a one-line script
+        run: echo Hello from Octo Organization
+
