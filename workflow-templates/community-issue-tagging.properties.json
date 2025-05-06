@@ -1,7 +1,7 @@
 {
   "name": "Tenstorrent - Community Issue and PR Labeling Workflow",
   "description": "Tenstorrent - Community Issue and PR Labeling Workflow",
-  "iconName": "octicon-bug",
+  "iconName": "example-icon",
   "categories": [
     "Automation"
   ]
